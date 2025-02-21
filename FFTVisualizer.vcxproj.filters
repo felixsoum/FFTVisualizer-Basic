@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\src\ofxEasyFft.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\src\ofxFft.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\src\ofxFftBasic.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\src\ofxFftw.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\src\ofxProcessFFT.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\libs\kiss\kiss_fft.c">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFft\libs\kiss\kiss_fftr.c">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{2A5DBC31--291-A-4F-BD-B-252-F7E0540ABCC0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft">
+			<UniqueIdentifier>{73B0E8B1--171-7-4F-7D-B-F70-90C2EAEC3BCC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\src">
+			<UniqueIdentifier>{5355141C--702-D-44-F1-B-14C-85B43289DD53}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs">
+			<UniqueIdentifier>{028CE94E--2E2-4-41-FC-A-682-D2108FFCCB3C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs\fftw">
+			<UniqueIdentifier>{2A5B0C45--89D-3-43-53-8-992-B902ABC5EC8F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs\fftw\include">
+			<UniqueIdentifier>{D927B05E--3F3-2-48-96-8-C91-AD0D9544B214}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs\kiss">
+			<UniqueIdentifier>{5F037DEE--6CC-7-48-44-A-F95-7722C5E41FBF}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\src\ofxEasyFft.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\src\ofxFft.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\src\ofxFftBasic.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\src\ofxFftw.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\src\ofxProcessFFT.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\libs\fftw\include\fftw3.h">
+			<Filter>addons\ofxFft\libs\fftw\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\libs\kiss\kiss_fft.h">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\libs\kiss\kiss_fftr.h">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFft\libs\kiss\_kiss_fft_guts.h">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
